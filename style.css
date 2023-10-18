@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    gap: 2em;
+    align-items: center;
+    width: 98%;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 1em;
+} 
+header ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: ;
+}
+header ul li a:hover{
+    text-decoration: underline;
+
+}
+header ul li button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #1a73e8;
+    border: none;
+    color: #fff;
+}
+/*nav end*/
+.main{
+    text-align: center;
+    margin: 50px;
+
+}
+.searchbox{
+    display: inline-block;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+.container .logo{
+    text-align: center;
+}
+.searchbox input{
+    width: 96%;
+    padding: 12px 20px;
+    border-radius: 24px;
+    border: 1px solid #aaaaaa;
+    z-index: 1;
+    background: transparent;   
+}
+.searchbox input:focus{
+    border: 1px solid #aaa;
+    box-shadow: 0 0 5px #cbcbcb;
+    outline: none;
+    padding-left: 35px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    margin: auto;
+    position: flex;
+    position: absolute;
+    top: 25%;
+    left: 15px;
+    z-index: -1;
+}
+.button{
+    margin: 30px;
+    gap: 2px;
+
+}
+/*main compleate*/
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin: 80px;
+} 
+.container ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+.container ul li a{
+    text-decoration: none;
+}
+.container ul li a:hover{
+    text-decoration: underline;
+    
+
+
+}
